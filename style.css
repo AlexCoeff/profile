@@ -1,0 +1,98 @@
+body {
+  background-color : #f7f9fc;
+  font-family :'Lora', serif;
+  color: #585f7d;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#introduction a:hover {
+  background-color: black;
+}
+
+#follow-me a:hover {
+  color: black;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+#logo-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+
+h1, h3 {
+  font-family: 'Lora', sans-serif;
+  color : #585f7d;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.card {
+  background: white;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  box-shadow: 5px 5px 3px lightgrey;
+  text-align: center;
+  padding: 30px;
+  margin: 40px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+
+}
+
+.buton-blue {
+  background-color: #6b73e1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#list-inline a {
+  font-weight: 200px;
+  font-size: 30px;
+  color: lightgrey;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
